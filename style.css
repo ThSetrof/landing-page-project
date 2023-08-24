@@ -9,3 +9,34 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+
+body{
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #1f2937;
+    padding: 20px 150px;
+    align-items: center;
+}
+
+.logo{
+    color: #F9FAf8;
+    font-size: 24px;
+}
+
+.header-links{
+    display: flex;
+    gap: 24px;
+}
+
+.header-links a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    font-weight: 100;
+}
+
