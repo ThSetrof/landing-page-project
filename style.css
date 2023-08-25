@@ -2,41 +2,182 @@
     font-family: "Roboto";
     src: url('fonts/Roboto-Medium.ttf');
 }
-
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
 }
 
 body{
+    font-family: 'Roboto', sans-serif;
+}
 
+ul{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+
+
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 48px 150px;
 }
 
 .header{
+    background-color: #1f2937;
+    height: 60px;
+}
+
+.header .container{
     display: flex;
     justify-content: space-between;
-
-    background-color: #1f2937;
-    padding: 20px 150px;
     align-items: center;
+    height: 100%;
+}
+
+.header a{
+    color: #f9faf8;
+    padding-left: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .logo{
-    color: #F9FAf8;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.hero-section{
+    background-color: #1f2937;
+}
+
+.hero-section img{
+    height: 250px;
+    width: 600px;
+    object-fit:cover;
+
+
+}
+
+
+.hero-section h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-section p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-section button{
+    padding: 8px 28px;
+    font-weight: 700;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+}
+.hero-section p{
+    margin-bottom: 12px;
+}
+
+.hero-section .container{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    gap: 24px;
+
+}
+
+
+.info-section{
+    text-align: center;
+}
+
+.info-section h2{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.info-section .image{
+    width: 150px;
+    height:150px;
+
+    border: 5px solid #3882f6;
+    border-radius: 16px;
+    margin-bottom: 8px;
+
+}
+
+.info-section  .boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quote-section{
+    background: #e5e6eb;
+}
+
+.quote-section p{
+    color: black;
+    font-weight: bold;
+    text-align: right;
+}
+
+.quote-section h3{
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.bg{
+    background-color: #3882f6;
+    display: flex;
+    padding: 48px 128px;
+    border-radius: 16px ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg button{
+    padding: 8px 32px;
+    color: white;
+    font-weight: 500 ;
+    background-color: #3882f6;
+    border: 3px solid #f9faf8;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.bg h4{
+    color: #f9faf8;
     font-size: 24px;
 }
 
-.header-links{
-    display: flex;
-    gap: 24px;
+.bg p{
+    color: #e5e7eb;
 }
 
-.header-links a{
-    font-size: 18px;
-    color: #e5e7eb;
-    text-decoration: none;
-    font-weight: 100;
+.footer{
+    background-color: #1f2937;
+    color: #e5e6eb;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
